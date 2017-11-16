@@ -1,0 +1,9 @@
+.SearchBar {
+    display: block;
+    padding: 0.8em;
+    width: 100%;
+}
+
+.SearchBar:focus {
+    outline: none;
+}

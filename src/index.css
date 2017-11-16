@@ -1,5 +1,32 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
 body {
+  width: 100%;
+  height: 100vh;
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+}
+
+:root {
+  --bgHeader: #1c5253;
+  --bgHeaderDark: #598889;
+  --textColor: #fff;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+a {
+  text-decoration: none;
+  color: var(--textColor);
 }

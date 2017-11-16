@@ -1,0 +1,28 @@
+.Header {
+    background: var(--bgHeader);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.Menu {
+    width: 900px;
+    height: inherit;
+    max-width: 1000px;
+    display: flex;
+    align-items: center;
+}
+
+.Menu__link {
+    display: block;
+    padding: 1.5rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: background-color .4s ease-in-out;
+}
+
+.Menu__link:hover {
+    background-color: var(--bgHeaderDark);
+}
