@@ -4,7 +4,7 @@ import './SearchBar.css';
 class SearchBar extends Component {
     render () {
         return (
-            <input className="SearchBar" placeholder="Búscar película, seríe de TV o persona" />
+            <input className="SearchBar" placeholder="Search for a movie, serie or TV show" />
         )
     }
 }

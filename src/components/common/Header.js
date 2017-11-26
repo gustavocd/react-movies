@@ -7,13 +7,16 @@ class Header extends Component {
             <header className="Header">
                 <ul className="Menu">
                     <li className="Menu__item">
-                        <a className="Menu__link" href="/movies">Películas</a>
+                        <a className="Menu__link" href="/">Home</a>
                     </li>
                     <li className="Menu__item">
-                        <a className="Menu__link" href="/series">Seríes de TV</a>
+                        <a className="Menu__link" href="/movies">Movies</a>
                     </li>
                     <li className="Menu__item">
-                        <a className="Menu__link" href="/people">Famosos</a>
+                        <a className="Menu__link" href="/series">TV Shows</a>
+                    </li>
+                    <li className="Menu__item">
+                        <a className="Menu__link" href="/people">People</a>
                     </li>
                 </ul>
             </header>

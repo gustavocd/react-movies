@@ -1,0 +1,18 @@
+.Footer {
+    display: block;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    background: #eee;
+    padding: 1rem 0;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.Footer__link {
+    color: steelblue;
+}
+
+.Footer__link:hover {
+    text-decoration: underline;
+}
