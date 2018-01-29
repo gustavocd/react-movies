@@ -7,21 +7,18 @@
 .Movies-Container .Movies-Container__item:first-child {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
-    background: tomato;
     position: relative;
 }
 
 .Movies-Container .Movies-Container__item:nth-child(2) {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
-    background: pink;
     position: relative;
 }
 
 .Movies-Container .Movies-Container__item:nth-child(3) {
     grid-column: 1 / 3;
     grid-row: 2 / 3;
-    background: brown;
     position: relative;
 }
 
@@ -29,18 +26,6 @@
     width: 100%;
     display: block;
     position: relative;
-}
-
-.Movies-Container__image--first {
-    height: 140px;    
-}
-
-.Movies-Container__image--second {
-    height: 140px;
-}
-
-.Movies-Container__image--third {
-    height: 300px;
 }
 
 .Movies-Container__footer {

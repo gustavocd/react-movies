@@ -24,6 +24,10 @@
     transition: background-color .4s ease-in-out;
 }
 
+.Menu__link.active {
+    background-color: var(--bgHeaderDark);
+}
+
 .Menu__link:hover {
     background-color: var(--bgHeaderDark);
 }
