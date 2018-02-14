@@ -17,9 +17,9 @@ class App extends Component {
         <Header />
         <main className="Main">
           <SearchBar />
-          <Route path="/movies" component={MoviesList}></Route>
-          <Route path="/series" component={SeriesList}></Route>
-          <Route path="/people" component={PeopleList}></Route>
+          <Route exact path="/movies" component={MoviesList}></Route>
+          <Route exact path="/series" component={SeriesList}></Route>
+          <Route exact path="/people" component={PeopleList}></Route>
           <Route exact path="/" component={Catalog}></Route>
         </main>
         <Footer />
